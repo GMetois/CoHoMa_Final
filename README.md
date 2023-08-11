@@ -32,16 +32,6 @@ qrc_manger subscribes to the strategic point messages of the two nodes above, so
 
 img_pub is a node used for development that allows to publish a video stream from a usb camera
 
-## Install
-
-First you have to check is you have the GeographicLib library installed.
-If not, you can install it from sources with the tutorial on the website: https://geographiclib.sourceforge.io/C++/doc/install.html using the "Installation using the autoconfigure tools"
-
-Then you can clone the projet with the command:
-```bash
-git clone https://gitlab.ensta.fr/yver/cohoma_detection.git -b master
-```
-
 ## How to use
 
 Once the node has been cloned and compiled, you can change the topic names used and the HSV detection thresholds in the launchfile:
